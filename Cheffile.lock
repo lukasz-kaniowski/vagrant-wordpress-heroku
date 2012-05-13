@@ -17,14 +17,21 @@ SITE
       build-essential (>= 0.0.0)
       mysql (>= 0.0.0)
       xml (>= 0.0.0)
-    postgresql (0.99.4)
-      openssl (>= 0.0.0)
     xfs (1.0.0)
     xml (1.0.2)
+
+GIT
+  remote: https://github.com/lukasz-kaniowski/postgresql
+  ref: master
+  sha: 083681cc124266a90d6c5ea1e3eddcf8040d8cc6
+  specs:
+    postgresql (0.99.4)
+      openssl (>= 0.0.0)
 
 DEPENDENCIES
   apache2 (>= 0)
   apt (>= 0)
   database (>= 0)
   php (>= 0)
+  postgresql (>= 0)
 
