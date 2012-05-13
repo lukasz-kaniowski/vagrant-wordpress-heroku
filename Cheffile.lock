@@ -2,6 +2,7 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     apache2 (1.1.8)
+    apt (1.4.2)
     aws (0.99.1)
     build-essential (1.0.0)
     database (1.2.0)
@@ -23,6 +24,7 @@ SITE
 
 DEPENDENCIES
   apache2 (>= 0)
+  apt (>= 0)
   database (>= 0)
   php (>= 0)
 
