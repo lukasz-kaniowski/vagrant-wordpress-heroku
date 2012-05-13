@@ -8,23 +8,22 @@ Usage
 =========
 Create directory "project" and clone there 2 repos
 
-$ git clone https://github.com/mhoofman/wordpress-heroku
-$ git clone https://github.com/lukasz-kaniowski/vagrant-wordpress-heroku
-$ cd vagrant-wordpress-heroku/
-$ bundle
-$ librarian-chef install
-$ vagrant up
+    $ git clone https://github.com/mhoofman/wordpress-heroku
+    $ git clone https://github.com/lukasz-kaniowski/vagrant-wordpress-heroku
+    $ cd vagrant-wordpress-heroku/
+    $ bundle
+    $ librarian-chef install
+    $ vagrant up
 
 Edit file  wordpress-heroku/wp-config.php
-```
-if (!$_ENV["DATABASE_URL"]){
-    $db = parse_url("postgres://wordpress:wordpress@localhost:5432/wordpress");
-}else {
-    $db = parse_url($_ENV["DATABASE_URL"]);
-}
-```
 
-Open your browser to http://localhost:8080/
+    if (!$_ENV["DATABASE_URL"]){
+        $db = parse_url("postgres://wordpress:wordpress@localhost:5432/wordpress");
+    }else {
+        $db = parse_url($_ENV["DATABASE_URL"]);
+    }
+
+Open your browser to `http://localhost:8080/`
 
 Components
 ==========
