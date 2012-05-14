@@ -1,6 +1,6 @@
-# Vagrant WordPress using librarian
+# Vagrant for heroku-wordpress using librarian
 
-This is vagrant definition for creating stack that will help during development of wordpress.
+This is vagrant definition for creating stack that helps during development of wordpress.
 It is meant to be used together with [wordpress-heroku](https://github.com/mhoofman/wordpress-heroku).
 
 
