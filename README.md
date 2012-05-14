@@ -15,7 +15,7 @@ Create directory "project" and clone there 2 repos
     $ librarian-chef install
     $ vagrant up
 
-Edit file  wordpress-heroku/wp-config.php
+Edit file `wordpress-heroku/wp-config.php`
 
     if (!$_ENV["DATABASE_URL"]){
         $db = parse_url("postgres://wordpress:wordpress@localhost:5432/wordpress");
